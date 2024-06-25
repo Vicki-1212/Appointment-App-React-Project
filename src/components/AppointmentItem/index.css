@@ -1,0 +1,45 @@
+/* Write your CSS here */
+.appointment-container {
+  padding: 10px;
+  border: 2px solid #b5b7c4;
+  border-radius: 15px;
+  list-style-type: none;
+  width: 100%;
+  margin-bottom: 15px;
+  margin-right: 15px;
+}
+
+@media screen and (min-width: 768px) {
+  .appointment-container {
+    width: 270px;
+  }
+}
+
+.appointment-top-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.appointment-session {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+.fav-button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+
+.starred-image {
+  height: 20px;
+}
+
+.appointment-date {
+  color: #b5b7c4;
+  font-size: 16px;
+  font-family: 'Roboto';
+}

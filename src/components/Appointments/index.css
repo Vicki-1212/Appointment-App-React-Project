@@ -1,0 +1,148 @@
+/* Write your CSS here */
+
+.bg-container {
+  background-image: linear-gradient(to bottom, #fbc7d4, #9796f0);
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 30px;
+}
+
+.card-container {
+  background-color: #ffffff;
+  border-radius: 10px;
+  padding: 30px;
+}
+
+.top-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+@media screen and (min-width: 768px) {
+  .top-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  margin-right: 20px;
+}
+
+.top-image {
+  display: none;
+}
+
+@media screen and (min-width: 768px) {
+  .top-image {
+    display: flex;
+    width: 50%;
+    margin-bottom: 20px;
+  }
+}
+
+.top-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .top-heading {
+    font-size: 30px;
+    margin-bottom: 30px;
+  }
+}
+
+.label {
+  color: #b5b7c4;
+  font-family: 'Roboto';
+  font-size: 18px;
+  margin-bottom: 10px;
+  font-weight: 600;
+}
+
+.input {
+  width: 280px;
+  height: 40px;
+  margin-bottom: 20px;
+  font-size: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .input {
+    width: 400px;
+    height: 50px;
+  }
+}
+
+.button {
+  width: 80px;
+  background-color: #8b5cf6;
+  color: #ffffff;
+  font-family: 'Roboto';
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  margin-bottom: 10px;
+}
+
+/* Bottom Container */
+.stared-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom-heading {
+  color: #171f46;
+  font-family: 'Roboto';
+  font-size: 20px;
+}
+
+@media screen and (min-width: 768px) {
+  .bottom-heading {
+    font-size: 25px;
+  }
+}
+
+.starred-button {
+  border-radius: 15px;
+  padding: 6px;
+  width: 70px;
+}
+
+.filter {
+  background-color: #9897f0;
+  color:#ffffff;
+}
+
+.noFilter {
+  background-color: transparent;
+  color: #9897f0;
+  border: 2px solid #9897f0;
+}
+
+.result-container {
+  padding: 0px;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (min-width: 768px) {
+  .result-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
